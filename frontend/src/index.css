@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+body,
+html {
+  min-width: 100vw;
+}
+.bdr {
+  border: 2px solid red;
+}
+:root {
+  --priary-color: #f72e42;
+}
+
+.navmenu li a {
+  font-size: 1.1rem;
+}
