@@ -8,8 +8,7 @@ const app = express();
 // CORS config
 app.use(
   cors({
-    origin: process.env.F_URI, // http://localhost:5173
-    // Allow only POST requests
+    origin: "https://w-pconverter.vercel.app",
     methods: ["POST"],
   })
 );
