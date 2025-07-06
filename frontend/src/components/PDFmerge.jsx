@@ -66,7 +66,7 @@ const PDFMerger = () => {
     <div className="flex justify-center items-center py-20 my-20 px-5">
       <div className="w-full max-w-sm bg-white border border-gray-300 rounded-lg shadow-lg p-6">
         <h2 className="text-2xl font-semibold text-center mb-4 text-indigo-600 underline">
-          Merge PDF Files
+          Merge and Create new PDF
         </h2>
 
         <div className="flex flex-col gap-4">
