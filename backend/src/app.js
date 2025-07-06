@@ -8,8 +8,8 @@ const app = express();
 // CORS config
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow the frontend running on port 3000
-    // Allow only GET and POST requests
+    origin: process.env.F_URI, // http://localhost:5173
+    // Allow only POST requests
     methods: ["POST"],
   })
 );
