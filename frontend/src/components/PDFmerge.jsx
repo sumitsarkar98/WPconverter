@@ -27,7 +27,7 @@ const PDFMerger = () => {
     try {
       setIsMerging(true);
       const response = await axios.post(
-        "http://wp-converter.onrender.com/api/mergepdf",
+        "https://wp-converter.onrender.com/api/mergepdf",
         formData,
         {
           responseType: "blob",

@@ -31,7 +31,7 @@ const WTPconvert = () => {
     try {
       setIsConverting(true);
       const response = await axios.post(
-        "http://wp-converter.onrender.com/api/wordtopdf",
+        "https://wp-converter.onrender.com/api/wordtopdf",
         formData,
         {
           responseType: "blob",

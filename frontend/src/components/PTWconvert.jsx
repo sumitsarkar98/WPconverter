@@ -31,7 +31,7 @@ const PTWonvert = () => {
     try {
       setIsConverting(true);
       const response = await axios.post(
-        "http://wp-converter.onrender.com/api/pdftoword",
+        "https://wp-converter.onrender.com/api/pdftoword",
         formData,
         {
           responseType: "blob", // Important for downloading the DOCX as Blob
